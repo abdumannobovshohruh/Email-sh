@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 35px;
+    margin-top: 200px;
+    color: brown;
+    margin-bottom: 20px;
+}
+.flex{
+    text-align: center;
+}
+input{
+    border: none;
+    border-bottom: 1px solid indigo;
+    /* text-align: center; */
+    font-size: 25px;
+    height: 40px;
+    width: 300px;
+    outline: none;
+    /* border: none ; */
+}
+
+@media (max-width: 575px) {
+    h2 {
+        font-size: 29px;
+    }
+    
+}
